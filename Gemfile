@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'ohai', :github => 'opscode/ohai', :branch => 'master'
-gem 'mixlib-shellout', '~> 1.6'
+gem 'mixlib-shellout', :github => 'opscode/mixlib-shellout', :branch => 'master'
 
 group :docs do
   gem 'yard',          '~> 0.8'
